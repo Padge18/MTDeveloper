@@ -1,0 +1,79 @@
+@font-face{
+	font-family:SegoeUI;
+	src: url('fuentes/SegoeUI.eot'), url('fuentes/SegoeUI.ttf');
+}
+*{
+	margin:0;
+}
+body{
+	background-color: white;
+	font-family:SegoeUI, Verdana, Arial;
+	font-size: 16px;	
+}
+footer{
+	background-color:#1A1A1A;
+	color: white;
+	font-size: 0.8em;
+	height: 80px;
+	margin-bottom: 0;
+	width: 100%;
+}
+footer div{
+	display: inline-block;
+}
+header{
+	background-color: #1A1A1A;
+	color: white;
+	height: 130px;
+	width: 100%;
+}
+h1{
+	font-size: 2em;
+	font-weight: normal;	
+}
+h3{
+	font-size: 1.1em;
+	font-weight: normal;
+}
+#contenedor-central{	
+	margin: 30px auto;
+	max-width: 1000px;
+}
+#footer-copyright{
+	margin-left: 180px;
+	max-width: 200px;
+	text-align: right;
+}
+#footer-links{
+	margin-left: 200px;
+	margin-top: 25px;
+	max-width: 350px;
+	text-align: right;
+}
+#footer-links a{
+	color: white;	
+	text-decoration: none;
+}
+#footer-links a:hover{
+	text-decoration: underline;
+}
+#footer-logo{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#logo{
+	background-image:url("imagenes/logoheader.png");
+	height:60px;
+	margin-top: 40px;
+	margin-left: 230px;
+	position: absolute;
+	width: 104px;
+}
+#logo a{
+	text-decoration: none;
+}
+#nombre{
+	margin-top: 40px;
+	margin-left: 350px;
+	position: absolute;
+}
