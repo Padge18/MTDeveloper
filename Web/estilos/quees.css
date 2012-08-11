@@ -1,0 +1,27 @@
+#imgtexto{
+	float: left;
+	padding-left: 60px;
+}
+#que-es{
+	margin-left: 460px;
+	position: relative;
+	max-width:490px;
+	padding-bottom: 79px;/*?Para mantener el footer pegado abajo*/	
+}
+.titulo{
+	background-color:#00A2E5;
+	color: white;
+	text-align: center;
+}
+.titulo h3{
+	padding: 7px;
+	text-align:center;
+}
+.texto{
+	padding-top: 20px;
+	font-size: 0.95em;
+	color:#404040;
+	line-height:25px;
+	padding-bottom:20px;
+}
+
